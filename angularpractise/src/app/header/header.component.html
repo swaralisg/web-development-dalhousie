@@ -1,0 +1,35 @@
+<nav id="mynav" class="nav-extended">
+<div class="nav-wrapper" >
+        
+  <a href="#" id="logo" class="brand-logo">
+      <img id="image-logo" class="img-responsive"  src="./assets/images/logo.PNG"></a>
+
+  <a href="#" style="
+  position: fixed;" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <li><b><a href="#">Doctors</a></b></li>
+    <li><b><a href="#">Hospitals</a></b></li>
+    <li><b><a href="collapsible.html">Pharmacies</a></b></li>
+    <li><b><a [routerLink]="['/blog']" >Blogs</a></b></li>
+    <li><b><a href="#">Features</a></b></li>
+    <li> <input type="text" id="search-bar" placeholder="  &#xF002;"/></li>
+<li><a   [routerLink]="['/signup']" id="header-button" class="waves-effect waves-light btn">Sign Up</a></li>
+<li><a id="header-button" class="waves-effect waves-light btn">Log in</a></li>
+   
+</ul>
+</div>
+
+
+
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><b><a href="#">Doctos</a></b></li>
+    <li><b><a href="#">Hospitals</a></b></li>
+    <li><b><a href="collapsible.html">Pharmacies</a></b></li>
+    <li><b><a [routerLink]="['/blog']">Blogs</a></b></li>
+    <li><b><a href="#">Features</a></b></li>
+    <li><a   [routerLink]="['/signup']" id="header-button" class="waves-effect waves-light btn">Sign Up</a></li>
+    <li><a id="header-button" class="waves-effect waves-light btn">Log in</a></li>
+</ul>
+

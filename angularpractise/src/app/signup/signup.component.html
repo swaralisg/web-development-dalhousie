@@ -1,0 +1,55 @@
+
+<app-header></app-header>
+
+
+                
+ <div style="margin-top:10px; background-image:url(./assets/images/glitter1.gif)" class="container">
+         <div class="card">
+             <div class="row justify-content-center">
+                 <div id="background" class="col-sm-12 col-xs-12 col-md-7 col-lg-7">
+                        <p style="margin-top:20px"  id="heading"><b><label id="initial">S</label><label id="last">ign</label> &nbsp; <label id="initial">U</label><label id="last">p</label></b></p>
+                        <br>
+                        <br>
+                        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                        <div  class="container-fluid">
+                                
+                              
+                      
+                     <input id="inputboxes" type="text"name="fname"  placeholder="First Name *">
+                     <br>
+                     <br>
+                     <input id="inputboxes" type="text"name="lname"  placeholder="Last Name *">
+                     <br>
+                     <br>
+                     <input id="inputboxes" type="email" name="email"  placeholder="Email *">
+                     <br>
+                     <br>
+                     <!-- Code section for password field -->
+                     <input type="password" id="psw"   name="password" placeholder="Password *" >
+                 
+                     <span toggle="#password-field" class="fa fa-fw fa-eye-slash field_icon toggle-password"></span>
+                    <div class="row">
+                     <input type="text" id="t2" readonly/> 
+                     </div>
+                   </div>
+                    <br>
+                    <div class="row">
+                    <div  class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                        <input id="submit-button"   onclick="test_password()" type="submit" value="Sign Up" >
+                    <div id="small-line">
+                                Already have an account?  &nbsp;   <a><u>Log In</u></a>
+                            </div>
+                        </div>
+                    </div>
+                 </form>
+                 </div>
+                 <!-- doctor image on the side -->
+                 <div  class="col-sm-12 col-xs-12 col-md-5 col-lg-5 "  >
+                 <img id="myimage" class="img-responsive" src="./assets/images/doctor.jpg">   
+                 </div>
+             </div>
+            </div>
+      </div>
+       
+
+  

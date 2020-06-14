@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Angularpractise</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="email-validation.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+
+
+<!-- script to add show hide password validation -->
+<script>
+  $("body").on('click', '.toggle-password', function() {
+  $(this).toggleClass("fa-eye-slash fa-eye");
+  var input = $("#psw");
+  if (input.attr("type") === "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+
+});
+  </script>
+<!-- 
+  script for aos effects -->
+<script>
+AOS.init({
+  easing: 'ease-in-quad',
+});
+</script>
+
+<!-- script for validating password -->
+  <script>
+  function test_password() { 
+    var res; 
+    var str = 
+        document.getElementById("psw").value; 
+    if (str.match(/[a-z]/g) && str.match( 
+            /[A-Z]/g) && str.match( 
+            /[0-9]/g) && str.match( 
+            /[^a-zA-Z\d]/g) && str.length >= 8) {
+            console.log('correct')
+            res = "true";
+            }
+    
+    else 
+        res = "Password must containe atleast one (special character,lowercase letter,upppercase letter,digit) and minimum 8 characters"; 
+    document.getElementById("t2").value = res; 
+
+} 
+
+
+
+</script>
+
+
+
+
+<!-- script for not null validation -->
+
+
+    <script>
+        function validateForm() {
+          var x = document.forms["myForm"]["fname"].value;
+  var y = document.forms["myForm"]["lname"].value;
+   var z = document.forms["myForm"]["email"].value;
+    var w = document.forms["myForm"]["password"].value;
+          
+          if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+    if (y == "" || y == null) {
+    alert(" Last Name must be filled out");
+    return false;
+  }
+
+  if (z == "" || w == null) {
+    alert("Email must be filled out");
+    return false;
+  }
+    if (w == "" || w == null) {
+    alert(" Password Name must be filled out");
+    return false;
+  }
+     
+
+        }
+        </script>
+
+        <script>
+          function myFunction() {
+  var x = document.getElementById("psw");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+        </script>
+
+<!-- 
+********** -->
+
+
+
+
+
+<app-root></app-root>
+           
+
+</body>
+</html>

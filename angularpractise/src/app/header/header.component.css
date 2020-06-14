@@ -1,0 +1,95 @@
+#logo{
+
+margin-top: 10px;
+
+
+}
+
+#search-bar{
+    margin-left:20px;
+    margin-right:20px;
+    width:400px;
+    margin-top:10px ;
+    height:40px;
+    font-family: FontAwesome; 
+    border: 1px solid lightgrey;
+}
+
+#image-logo{
+    padding-left: 20px;
+      margin-top: 10px;background-position: center;
+     
+      width:90%;
+      height: 100%
+}
+
+#iconfied {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    
+}
+
+
+
+.material-icons{
+margin-top: 20px;
+color: cadetblue;
+font-size: 30px;
+}
+
+#mynav{
+    height: 100px;
+    background: white;
+   
+    border: 4px solid cadetblue;
+}
+
+#nav-container{
+    padding-top: 8px;
+}
+
+#nav-mobile{
+
+   
+font-family:Arial;
+
+color: black;
+
+
+}
+
+#header-button{
+    background: linear-gradient(135deg, rgba(244, 245, 173, 0.788) 0%,rgb(243, 241, 92) 50%,
+    rgb(240, 237, 52) 51%,rgb(119, 113, 1)100%);
+    border: 2px solid cadetblue;
+    color: black;
+    font-weight: 400;
+    width: 112px;
+    margin-right: -3px;
+    border-radius: 15px 1px 15px 1px;
+    transition: transform .2s;
+   
+}
+
+#header-button:hover{
+    transform: scale(1.1);
+}
+
+nav ul a {
+    font-size: 1.2rem;
+    color: black
+}
+
+
+
+nav ul li:first-child{
+   
+
+    margin-left: 460px;
+}
+
+nav ul li{
+    margin-top: 12px;
+}
