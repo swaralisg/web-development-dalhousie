@@ -1,6 +1,5 @@
 #button{
-    background: linear-gradient(135deg, rgba(244, 245, 173, 0.788) 0%,rgb(243, 241, 92) 50%,
-    rgb(240, 237, 52) 51%,rgb(119, 113, 1)100%);
+    background: linear-gradient(135deg, white,#ffedae,#ffdb58,#ffcc13);
     border: 4px solid cadetblue;
     color: black;
     font-size: 28px;
@@ -174,8 +173,7 @@ font-size: 35px;
 
 
 #hello{
-    background: linear-gradient(135deg, rgba(244, 245, 173, 0.788) 0%,rgb(243, 241, 92) 50%,
-    rgb(240, 237, 52) 51%,rgb(119, 113, 1)100%);
+    background: linear-gradient(135deg, white,#ffedae,#ffdb58,#ffcc13);
     border: 4px solid cadetblue;
     color: black;
     font-size: 24px;
@@ -197,8 +195,7 @@ hello:hover{
 }
 #nursing-button{
     transition: transform .2s;
-    background: linear-gradient(135deg, rgba(244, 245, 173, 0.788) 0%,rgb(243, 241, 92) 50%,
-    rgb(240, 237, 52) 51%,rgb(119, 113, 1)100%);
+    background: linear-gradient(135deg, white,#ffedae,#ffdb58,#ffcc13);
     border: 4px solid cadetblue;
     color: black;
     font-size: 24px;
@@ -213,8 +210,7 @@ hello:hover{
 
 #read-more{
 
-    background: linear-gradient(135deg, rgba(244, 245, 173, 0.788) 0%,rgb(243, 241, 92) 50%,
-    rgb(240, 237, 52) 51%,rgb(119, 113, 1)100%);
+    background: linear-gradient(135deg, white,#ffedae,#ffdb58,#ffcc13);
         border: 4px solid cadetblue;
         color: black;
   
