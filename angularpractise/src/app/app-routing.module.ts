@@ -4,6 +4,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 
 

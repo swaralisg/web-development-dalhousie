@@ -1,0 +1,89 @@
+#read-more{
+
+    background: linear-gradient(135deg, white,#ffedae,#ffdb58,#ffcc13);;
+        border: 4px solid cadetblue;
+        color: black;
+  
+        font-weight: 600;
+     
+        font-family:Helvetica;
+        height: fit-content;
+    
+        border-radius: 18px 1px 18px 1px;
+    
+}
+#row-1{
+    padding: 17px;
+    font-size: 15px;
+    }
+    #name{
+        font-weight: 800;
+    }
+
+    #name-text{
+        margin-top: 5px;
+    }
+
+    #label-title{
+        font-size: medium;
+    margin-top: 5px;
+    color: black;
+    }
+#inputbox{
+    border: 2px solid black;
+
+    }
+
+    .add-comment{
+        padding: 15px;
+    }
+    
+#comment-button{
+background: #ebebeb;
+font-size: 15px;
+color: #5c5c5c;
+border: 1px solid darkslategrey;
+font-weight: 600;
+border-radius: 10px;
+}
+    textarea{
+        height: 150px;
+        border: 2px solid black;
+    }
+
+    
+#doctor-image{
+    height:400p;
+}
+
+#doctor-col{
+padding: 30px;
+}
+
+.card{
+background-image: linear-gradient( cadetblue, cadetblue );
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 0% 100%;
+height: fit-content;
+transition: background-size .5s, color .5s;
+border: 6px solid cadetblue;
+vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  
+  
+
+}
+
+.doctor-description{
+    margin-top: 10px; 
+    text-align: center;
+}
+.card:hover{
+  
+  background-size: 100% 100%;
+  color: #fff; 
+
+
+}
